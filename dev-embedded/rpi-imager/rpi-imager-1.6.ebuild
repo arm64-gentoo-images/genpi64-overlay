@@ -11,19 +11,18 @@ MY_PV="1.6"
 CMAKE_MAKEFILE_GENERATOR="emake"
 CMAKE_IN_SOURCE_BUILD=1
 
-DESCRIPTION="A Test"
-HOMEPAGE="https://looking-glass.hostfission.com/"
+DESCRIPTION="Raspberry Pi Imager (WIP ebuild)"
+HOMEPAGE="https://github.com/raspberrypi/rpi-imager"
 SRC_URI="https://github.com/raspberrypi/rpi-imager/archive/v${MY_PV}.tar.gz"
 
 S="${WORKDIR}/rpi-imager-${MY_PV}"
 
 LICENSE="Apache"
 SLOT="0"
-KEYWORDS="~arm64"
+KEYWORDS="~arm64 ~amd64"
 IUSE=""
 
-DEPEND="
-"
+DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND="dev-util/cmake"
 
