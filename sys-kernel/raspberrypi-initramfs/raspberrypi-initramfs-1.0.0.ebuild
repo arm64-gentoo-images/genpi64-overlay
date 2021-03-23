@@ -9,9 +9,8 @@ SRC_URI="${HOMEPAGE}/archive/refs/tags/${PV}.tar.gz"
 
 inherit toolchain-funcs
 
-LICENSE="GPL2"
 SLOT="0"
-KEYWORDS="aarch64 arm"
+KEYWORDS="arm64 arm"
 
 
 RDEPEND=""
