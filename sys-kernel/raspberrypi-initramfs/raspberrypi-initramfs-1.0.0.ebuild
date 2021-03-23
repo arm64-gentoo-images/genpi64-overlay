@@ -16,7 +16,7 @@ KEYWORDS="arm64 arm"
 RDEPEND=""
 DEPEND="${RDEPEND}"
 BDEPEND="dev-lang/micropython
-		 dev-libs/libffi[static]
+		 dev-libs/libffi[static-libs]
 		 sys-apps/busybox[static]
 		 sys-fs/btrfs-progs[static]"
 
