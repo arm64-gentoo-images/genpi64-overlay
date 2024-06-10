@@ -8,6 +8,7 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~arm64"
 DEPEND="app-arch/unzip"
+RDEPEND="!sys-boot/rpi4-uefi"
 
 src_install() {
     insinto /boot/efi
