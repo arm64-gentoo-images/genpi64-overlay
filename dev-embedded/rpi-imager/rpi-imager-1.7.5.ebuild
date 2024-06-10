@@ -23,7 +23,7 @@ IUSE=""
 DEPEND="
         dev-qt/qtconcurrent
         "
-        
+
 RDEPEND="
         dev-qt/qtquickcontrols2
         "
